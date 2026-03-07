@@ -10,7 +10,7 @@ export default function Page() {
 
   // Default initial slides
   const [slidesHtml, setSlidesHtml] = useState<string[]>([
-    `<div class="slide-container" style="background-color: #ffffff;">\n  <div style="padding: 64px; display: flex; flex-direction: column; gap: 24px; min-height: 500px;">\n    <h1 style="color: #1e3a8a; font-size: 48px; font-weight: 800;">Welcome to HTML to PPTX</h1>\n    <p style="color: #374151; font-size: 20px;">This tool extracts HTML components and natively constructs PowerPoint presentations.</p>\n    <p style="color: #4b5563; font-size: 16px; font-weight: bold; background-color: #f3f4f6; padding: 16px; border-radius: 8px; display: inline-block;">\n      You can edit this HTML directly in the source boxes!\n    </p>\n  </div>\n</div>`,
+    `<div class="slide-container" style="background-color: #ffffff;">\n  <div style="padding: 64px; display: flex; flex-direction: column; gap: 24px; min-height: 500px;">\n    <h1 style="color: #1e3a8a; font-size: 48px; font-weight: 800;">Welcome to Unspark</h1>\n    <p style="color: #374151; font-size: 20px;">This tool extracts HTML components and natively constructs PowerPoint presentations.</p>\n    <p style="color: #4b5563; font-size: 16px; font-weight: bold; background-color: #f3f4f6; padding: 16px; border-radius: 8px; display: inline-block;">\n      You can edit this HTML directly in the source boxes!\n    </p>\n  </div>\n</div>`,
     `<div class="slide-container" style="background-color: #1e293b;">\n  <div style="padding: 64px; text-align: center; min-height: 500px;">\n    <h2 style="color: #f8fafc; font-size: 36px; font-weight: bold; margin-bottom: 24px;">Dynamic Image Handling</h2>\n    <img src="https://images.unsplash.com/photo-1551033406-611cf9a28f67?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Code screenshot"\n      style="border-radius: 8px; max-width: 100%; display: inline-block;" width="600" crossOrigin="anonymous" />\n  </div>\n</div>`
   ]);
 
@@ -147,7 +147,7 @@ export default function Page() {
     <div className="min-h-screen bg-gray-50 flex flex-col font-sans">
       <header className="bg-white shadow-sm border-b px-8 py-4 flex items-center justify-between sticky top-0 z-20">
         <div>
-          <h1 className="text-xl font-bold text-gray-800">HTML to PPTX Converter</h1>
+          <h1 className="text-xl font-bold text-gray-800">Unspark</h1>
           <p className="text-sm text-gray-500">Convert standard web structures into PowerPoint slides</p>
         </div>
         <button
